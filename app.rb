@@ -11,6 +11,10 @@ configure do
   'bitheads', 'accidial']
 end
 
+before do
+  @development = Sinatra::Base.development?
+end
+
 get '/' do
   @top_word = settings.top_words.sample
   erb :index
@@ -21,7 +25,7 @@ post '/' do
 end
 
 get '/:term' do
-  @article = settings.dictionary.define(params['term'])[0]
+  @article = settings.dictionary.define(params['term'].strip)[0]
   redirect to('/404') unless @article
 
   erb :article
