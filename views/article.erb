@@ -1,0 +1,18 @@
+<div class="jumbotron jumbotron-fluid text-left definition-block">
+  <div class="container">
+    <h1 class="display-3">
+      <%= @article.word %>
+    </h1>
+    <p class="lead text-body">
+      <%= @article.definition %>
+    </p>
+    <blockquote class="blockquote">
+      <p class="mb-0 font-weight-light font-italic">
+        <%= @article.example %>
+      </p>
+      <footer class="blockquote-footer">
+        <cite title="<%= @article.author %>"><%= @article.author %></cite>
+      </footer>
+    </blockquote>
+  </div>
+</div>
