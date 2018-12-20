@@ -109,8 +109,8 @@
   }
 
   function initPage() {
-    $mainSearch = $('.main-search'),
-      $definitionBlock = $('.definition-block');
+    $mainSearch = $('.main-search');
+    $definitionBlock = $('.definition-block');
 
     if ($mainSearch.get(0)) {
       setupForm($mainSearch);

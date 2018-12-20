@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'sinatra'
 require 'sinatra/reloader' if development?
 require 'cgi'
@@ -7,8 +9,8 @@ require_relative 'lib/urban_dictionary'
 configure do
   set :dictionary, UrbanDictionary.new
   set :top_words, ['shruggie', 'normie', 'smober', 'horosceptic', 'hand sauce',
-  'usie', 'selfiegenic', 'elationship', 'memers', 'kadult', 'frousin',
-  'bitheads', 'accidial']
+                   'usie', 'selfiegenic', 'elationship', 'memers', 'kadult',
+                   'frousin', 'bitheads', 'accidial']
 end
 
 before do

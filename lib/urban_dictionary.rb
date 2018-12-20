@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'net/http'
 require 'cgi'
 require 'json'
@@ -5,7 +7,7 @@ require 'json'
 require_relative 'article'
 
 class UrbanDictionary
-  SEARCH_URL = 'https://api.urbandictionary.com/v0/define?term='.freeze
+  SEARCH_URL = 'https://api.urbandictionary.com/v0/define?term='
 
   def define(term)
     uri = make_uri(term)

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Article
   attr_reader :word, :definition, :example, :author
 
