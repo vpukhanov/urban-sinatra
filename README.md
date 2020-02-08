@@ -1,4 +1,4 @@
-# Urban Sinatra ![Sonar Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=vpukhanov_urban-sinatra&metric=alert_status)
+# Urban Sinatra
 
 Urban Dictionary browser made with [Sinatra framework](http://sinatrarb.com/) for learning purposes. Has single page navigation support (via terrible JS script). [Check it out on Heroku](https://urban-sinatra.herokuapp.com/).
 
