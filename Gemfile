@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-gem 'sinatra', '~> 2.0', '>= 2.0.8.1'
+gem 'sinatra', '~> 2.2'
 
 gem 'rspec', '~> 3.9', group: :development
 gem 'rubocop', '~> 0.79.0', group: :development
