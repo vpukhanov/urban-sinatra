@@ -1,6 +1,6 @@
 # Urban Sinatra
 
-Urban Dictionary browser made with [Sinatra framework](http://sinatrarb.com/) for learning purposes. Has single page navigation support (via terrible JS script). [Check it out on Heroku](https://urban-sinatra.herokuapp.com/).
+Urban Dictionary browser made with [Sinatra framework](http://sinatrarb.com/) for learning purposes. Has single page navigation support (via terrible JS script). [Check it out on Render](https://urban-sinatra.onrender.com).
 
 ## How to run
 
